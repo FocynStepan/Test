@@ -137,18 +137,30 @@
 
 ## 5. Glossary (English Terminology)
 
-* **Hypervisor (Type 2):** Software that creates and runs virtual machines on a physical host machine (e.g., Oracle VirtualBox).
-* **CLI (Command Line Interface):** A text-based user interface used to view and manage computer files.
-* **GUI (Graphical User Interface):** A user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation.
-* **Open Source:** Source code that is made freely available for possible modification and redistribution.
-* **Repository:** A central file storage location used by version control systems or package management systems.
+| Ukrainian Term | English Term | Definition (UA / EN) |
+| :--- | :--- | :--- |
+| **Гіпервізор (Типу 2)** | **Hypervisor (Type 2)** | Програмне забезпечення, що створює та запускає віртуальні машини на фізичному хості (наприклад, VirtualBox).<br>*Software that creates and runs virtual machines on a physical host machine (e.g., Oracle VirtualBox).* |
+| **Інтерфейс командного рядка** | **CLI (Command Line Interface)** | Текстовий інтерфейс для керування комп'ютером шляхом введення команд.<br>*A text-based user interface used to view and manage computer files and system operations.* |
+| **Графічний інтерфейс** | **GUI (Graphical User Interface)** | Інтерфейс, що дозволяє користувачам взаємодіяти з електронними пристроями через графічні іконки та візуальні індикатори.<br>*A user interface that allows users to interact with electronic devices through graphical icons and visual indicators.* |
+| **Відкритий код** | **Open Source** | Програмне забезпечення, вихідний код якого доступний для перегляду, зміни та розповсюдження.<br>*Source code that is made freely available for possible modification and redistribution.* |
+| **Репозиторій** | **Repository** | Центральне сховище даних, де зберігаються та підтримуються пакети програмного забезпечення (наприклад, APT в Linux).<br>*A central file storage location used by version control systems or package management systems.* |
 
 ---
 
-## 6. Conclusions
+## 6. Висновки / Conclusions
+
+У цьому ворк-кейсі я успішно розгорнув віртуальні середовища за допомогою Oracle VirtualBox.
+Я опанував два типи встановлення Linux:
+1. **Стандартне встановлення** з попередньо налаштованим графічним інтерфейсом.
+2. **Мінімальне встановлення (CLI)** з ручним налаштуванням робочого середовища.
+
+Я порівняв графічні оболонки **GNOME** та **XFCE**. Практика показала, що хоча GNOME пропонує сучасний досвід користувача, XFCE є значно ефективнішим для віртуальних машин завдяки меншому споживанню ресурсів.
+
+---
+
 In this work-case, I successfully deployed virtual environments using Oracle VirtualBox.
 I mastered two types of Linux installation:
-1.  **Standard installation** with a pre-configured graphical interface.
-2.  **Minimal installation (CLI)** with manual setup of desktop environments.
+1. **Standard installation** with a pre-configured graphical interface.
+2. **Minimal installation (CLI)** with manual setup of desktop environments.
 
 I compared **GNOME** and **XFCE** desktop environments. The practice showed that while GNOME offers a modern user experience, XFCE is significantly more efficient for virtual machines due to lower resource consumption.
